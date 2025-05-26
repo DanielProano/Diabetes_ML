@@ -31,12 +31,8 @@ X_predict = model.predict(X_test)
 l_score = model.score(X_test, y_test)
 print(f"Linear Regression result {l_score}")
 
-plt.scatter(y_test, X_predict)
-plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
-plt.show()
-
 #Using Ridge Model
-r_model = Ridge(alpha=0.0)
+r_model = Ridge(alpha=1.0)
 
 r_model.fit(X_train, y_train)
 
@@ -44,6 +40,10 @@ r_predict = r_model.predict(X_test)
 
 r_score = r_model.score(X_test, y_test)
 print(f"Ridge Model score result {r_score}")
+
+plt.scatter(y_test, X_predict)
+plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], 'r--')
+plt.show()
 
 
 
