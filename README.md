@@ -1,3 +1,5 @@
+![Linear_Regression_Algorithm](https://github.com/user-attachments/assets/77abd1e0-31af-4a51-a8d4-1f21c116b695)
+
 # Diabetes Scikit ML
 
 A machine learning project for predicting the onset of diabetes using the [Scikit-learn](https://scikit-learn.org/) library and the well-known diabetes dataset.
