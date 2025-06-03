@@ -1,4 +1,4 @@
-![Linear_Regression_Algorithm](https://github.com/user-attachments/assets/77abd1e0-31af-4a51-a8d4-1f21c116b695)
+![The_Irish_MachineLearning_Model](https://github.com/user-attachments/assets/9eb491b9-dbfe-4cbf-9c64-dcf139b448b7)
 
 # Diabetes Scikit ML
 
